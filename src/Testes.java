@@ -1,6 +1,4 @@
-package projetoSingleton;
-
-public class Teste {
+public class Testes {
     public static void main(String[] args) {
         
         //Testes relacionados ao Design Pattern Singleton
