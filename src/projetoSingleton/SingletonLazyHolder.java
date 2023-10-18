@@ -1,3 +1,4 @@
+package ProjetoSingleton;
 
 public class SingletonLazyHolder {
     private static class InstanceHolder {

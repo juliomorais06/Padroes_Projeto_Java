@@ -1,4 +1,4 @@
-package Strategy;
+package ProjetoStrategy;
 
 public class ComportamentoDefensivo implements Comportamento{
     public void mover() {

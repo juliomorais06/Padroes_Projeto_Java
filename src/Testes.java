@@ -1,8 +1,11 @@
-import Strategy.Comportamento;
-import Strategy.ComportamentoAgressivo;
-import Strategy.ComportamentoDefensivo;
-import Strategy.ComportamentoNormal;
-import Strategy.Robo;
+import ProjetoSingleton.SingletonEager;
+import ProjetoSingleton.SingletonLazy;
+import ProjetoSingleton.SingletonLazyHolder;
+import ProjetoStrategy.Comportamento;
+import ProjetoStrategy.ComportamentoAgressivo;
+import ProjetoStrategy.ComportamentoDefensivo;
+import ProjetoStrategy.ComportamentoNormal;
+import ProjetoStrategy.Robo;
 
 public class Testes {
     public static void main(String[] args) {

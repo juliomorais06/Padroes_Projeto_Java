@@ -1,4 +1,4 @@
-package Strategy;
+package ProjetoStrategy;
 
 public class Robo {
     private Comportamento comportamento;
