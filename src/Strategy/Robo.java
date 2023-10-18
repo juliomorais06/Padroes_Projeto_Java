@@ -1,12 +1,12 @@
 package Strategy;
 
 public class Robo {
-    private Comportamento strategy;
-    public void setComportamento(Comportamento strategy) {
-        this.strategy = strategy;
+    private Comportamento comportamento;
+    public void setComportamento(Comportamento comportamento) {
+        this.comportamento = comportamento;
     }
 
     public void mover() {
-        strategy.mover();
+        comportamento.mover();
     }
 }

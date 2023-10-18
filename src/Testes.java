@@ -1,6 +1,13 @@
+import Strategy.Comportamento;
+import Strategy.ComportamentoAgressivo;
+import Strategy.ComportamentoDefensivo;
+import Strategy.ComportamentoNormal;
+import Strategy.Robo;
+
 public class Testes {
     public static void main(String[] args) {
         
+        //Singleton
         //Testes relacionados ao Design Pattern Singleton
         SingletonLazy lazy = SingletonLazy.getInstancia();
         System.out.println(lazy);
@@ -16,5 +23,22 @@ public class Testes {
         System.out.println(lazyHolder);
         lazyHolder = SingletonLazyHolder.getInstancia();
         System.out.println(lazyHolder);
+
+        //Strategy
+
+        Comportamento defensivo = new ComportamentoDefensivo();
+        Comportamento normal = new ComportamentoNormal();
+        Comportamento agressivo = new ComportamentoAgressivo();
+
+        Robo robo = new Robo();
+        robo.setComportamento(normal);
+        robo.mover();
+        robo.mover();
+        robo.setComportamento(agressivo);
+        robo.mover();
+        robo.mover();
+        robo.mover();
+        robo.setComportamento(defensivo);
+        robo.mover();
     }
 }
