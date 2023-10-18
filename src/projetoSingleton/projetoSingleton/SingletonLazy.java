@@ -1,5 +1,4 @@
 package projetoSingleton;
-
 public class SingletonLazy {
     private static SingletonLazy instancia;
 
